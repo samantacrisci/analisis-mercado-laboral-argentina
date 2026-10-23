@@ -11,9 +11,13 @@ Analizar empíricamente la estructura de ingresos de la población ocupada en Ar
 
 ##  Hallazgos Principales
 
-1. **Brecha General:** Las mujeres ocupadas perciben un 14,28% menos que los varones en el sector formal, tomando como referencia la mediana de ingresos.
-2. **Penalidad Educativa:** La educación superior eleva la base salarial general, pero no elimina la brecha de género; por el contrario, la diferencia absoluta se amplía en los niveles de mayor instrucción.
-3. **El Peso de la Informalidad:** La ausencia de regulación estatal (trabajo no registrado) reduce drásticamente los ingresos para ambos géneros (una caída de más del 50% respecto al sector formal). La leve reducción porcentual de la brecha en este sector (12,27%) se debe a una "igualdad hacia abajo" que precariza la base salarial y la empuja hacia límites de subsistencia.
+## Hallazgos principales
+
+**Muestra:** 15.182 personas ocupadas con ingresos válidos (de 43.739 encuestadas).
+
+1. **Brecha general:** las mujeres ocupadas perciben un 18,0% menos que los varones, tomando la mediana del ingreso total individual ($820.000 vs. $1.000.000).
+2. **La educación no cierra la brecha:** en todos los niveles educativos la mediana de las mujeres es menor. La diferencia en pesos es mayor en los niveles más altos (de $82.150 en Primario incompleto a $332.500 en Superior completo), aunque en términos porcentuales la brecha no crece: ronda el 30% en Secundario completo y baja al 20% en Superior completo.
+3. **El peso de la informalidad:** entre asalariados, el trabajo no registrado reduce la mediana de ingresos más de un 50% para ambos géneros (54% en mujeres y 55% en varones). La brecha porcentual es de 14,3% entre registrados y 12,3% entre no registrados: baja levemente porque los ingresos de ambos géneros se achatan hacia abajo.
 
 ##  Reproducción del Proyecto
 
@@ -23,3 +27,11 @@ Para replicar este análisis en tu entorno local, seguí estos pasos:
    Asegurate de tener Python 3 instalado. Abrí tu terminal y ejecutá:
    ```bash
    pip install pandas matplotlib seaborn openpyxl
+
+   ## Limitaciones
+
+- La variable de ingreso utilizada es el **ingreso total individual** (`P47T`), que incluye todas las fuentes de ingreso y no solo el salario de la ocupación principal.
+- No se controla por horas trabajadas, edad ni rama de actividad, por lo que la brecha es **bruta** y no ajustada.
+- No se aplicaron ponderadores muestrales de la EPH: los resultados describen la muestra analizada.
+- La EPH releva aglomerados urbanos, no la totalidad del país.
+- Los porcentajes de brecha se calculan sobre la mediana; las comparaciones por nivel educativo y condición de registro se hacen sobre subgrupos más pequeños, por lo que son menos estables.
