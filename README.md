@@ -9,8 +9,6 @@ Analizar empíricamente la estructura de ingresos de la población ocupada en Ar
 * **Librerías:** Pandas (limpieza y manipulación de datos), Matplotlib y Seaborn (visualización).
 * **Metodología:** Uso de la Mediana salarial (aislamiento de outliers) y cruce de variables categóricas.
 
-##  Hallazgos Principales
-
 ## Hallazgos principales
 
 **Muestra:** 15.182 personas ocupadas con ingresos válidos (de 43.739 encuestadas).
@@ -28,7 +26,7 @@ Para replicar este análisis en tu entorno local, seguí estos pasos:
    ```bash
    pip install pandas matplotlib seaborn openpyxl
 
-   ## Limitaciones
+ ## Limitaciones
 
 - La variable de ingreso utilizada es el **ingreso total individual** (`P47T`), que incluye todas las fuentes de ingreso y no solo el salario de la ocupación principal.
 - No se controla por horas trabajadas, edad ni rama de actividad, por lo que la brecha es **bruta** y no ajustada.
