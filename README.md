@@ -19,6 +19,7 @@ Analizar empíricamente la estructura de ingresos de la población ocupada media
 1. **Brecha general:** las mujeres ocupadas perciben un 18,0% menos que los varones, tomando la mediana del ingreso total individual ($820.000 vs. $1.000.000).
 2. **La educación no cierra la brecha:** en todos los niveles educativos la mediana de las mujeres es menor. La diferencia en pesos es mayor en los niveles más altos (de $82.150 en Primario incompleto a $332.500 en Superior completo), aunque en términos porcentuales la brecha no crece: ronda el 30% en Secundario completo y baja al 20% en Superior completo.
 3. **El peso de la informalidad:** entre asalariados, el trabajo no registrado reduce la mediana de ingresos más de un 50% para ambos géneros (54% en mujeres y 55% en varones). La brecha porcentual es de 14,3% entre registrados y 12,3% entre no registrados: baja levemente porque los ingresos de ambos géneros se achatan hacia abajo.
+4. La brecha crece con la edad: pasa de 11,1% entre los 25 y 34 años a 31,7% en los 65 y más. La mediana de los varones aumenta con la edad (de $900.000 a $1.200.000), mientras que la de las mujeres se mantiene entre $800.000 y $920.000. En el grupo de 65 y más, el ingreso total incluye jubilaciones y pensiones.
 
 ![Ingreso mediano por género](brecha_salarial_genero.png)
 ![Ingreso mediano por nivel educativo y género](brecha_educacion_genero.png)
