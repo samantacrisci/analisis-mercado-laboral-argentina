@@ -48,3 +48,13 @@ El script imprime las tablas en consola y genera los tres gráficos en formato P
 - No se aplicaron ponderadores muestrales de la EPH: los resultados describen la muestra analizada.
 - La EPH releva aglomerados urbanos, no la totalidad del país.
 - Los porcentajes de brecha se calculan sobre la mediana; las comparaciones por nivel educativo y condición de registro se hacen sobre subgrupos más pequeños, por lo que son menos estables.
+
+## Dashboard interactivo en Power BI
+
+![Dashboard](dashboard/dashboard_eph.jpg)
+
+Dashboard con filtros por nivel educativo y condición laboral: ingreso mediano por nivel educativo y sexo, ingreso mediano según registro laboral y brecha porcentual por grupo de edad.
+
+- Versión en PDF: [dashboard_eph.pdf](dashboard/dashboard_eph.pdf)
+- Archivo editable (requiere Power BI Desktop): [dashboard_eph.pbix](dashboard/dashboard_eph.pbix)
+- La tabla de entrada se genera con [exportar_para_powerbi.py](exportar_para_powerbi.py), con los mismos filtros del análisis en Python.
